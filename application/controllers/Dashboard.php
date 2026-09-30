@@ -1,0 +1,9 @@
+<?php
+
+defined('BASEPATH') or exit('No direct script access allowed');
+
+class dashboard extends CI_Controller {
+    public function index() {
+        echo "<h1>SELAMAT DATANG DI WEBSITE KAMI</h1>";
+    }
+}
